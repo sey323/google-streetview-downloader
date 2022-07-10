@@ -1,22 +1,24 @@
 # Google StreetView Downloader
 
-Google StreetView Apiを利用して画像をダウンロードするサンプルです。
+Google StreetView Apiを利用して画像をダウンロードするサンプル。本リポジトリは、下記の記事で利用したリポジトリです。
+
+- [PythonでGoogleStreetViewから画像をダウンロードする - Qiita](https://qiita.com/sey323/items/6339767bd289c9be7112)
 
 ## Usage
 
 ### 1. 必要ライブラリのインストール
 
-``
+```sh:
 pip install -r requirements.txt
-``
+```
 
 ### 2. コマンド
 
 以下のコマンドを実行することで、`${対象の住所}`のストリートビュー画像をダウンロードし、`downloads/`以下フォルダに保存する。
 
-``
+```sh:
 python main.py ${api_key} ${対象の住所}
-``
+```
 
 必須の引数
 
